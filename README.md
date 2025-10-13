@@ -41,31 +41,24 @@ DATABASE_URL=postgresql://username:password@host:port/dbname?sslmode=require
 Replace `username`, `password`, `host`, `port`, and `dbname` with your database credentials.
 
 # Usage
-### Run in development mode
-npm run dev  
-or  
-yarn dev
-
-### Run in production mode
-npm start  
-or  
-yarn start
+Run the server with Node.js:  
+node app.js  
 
 Server will run at `http://localhost:3000`
 
 # Project Structure
-- controllers/ - Route handlers  
-- db/ - Database connection  
-- partials/ - Reusable EJS components  
-- public/ - Static files (CSS, JS, images)  
-- routes/ - Express routes  
-- views/ - EJS templates  
-- .gitignore  
-- package.json  
-- README.md  
+- controllers/ - Route handlers
+- db/ - Database connection
+- partials/ - Reusable EJS components
+- public/ - Static files (CSS, JS, images)
+- routes/ - Express routes
+- views/ - EJS templates
+- .gitignore
+- package.json
+- README.md
 
 # Contributing
-Feel free to fork the repo and submit pull requests.  
+Feel free to fork the repo and submit pull requests.
 
 # License
 MIT License © 2025 Lam Nhat Hung Huynh
