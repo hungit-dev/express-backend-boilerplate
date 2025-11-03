@@ -1,6 +1,6 @@
 # Express Backend Boilerplate
 
-A clean and simple Express.js boilerplate for quickly building backend applications with PostgreSQL and EJS templating.
+A clean and simple Express.js boilerplate for quickly building backend applications with PostgreSQL, EJS templating, and user authentication using Passport.js.
 
 # Table of Contents
 - [Features](#features)
@@ -16,6 +16,7 @@ A clean and simple Express.js boilerplate for quickly building backend applicati
 - EJS templating engine
 - PostgreSQL integration
 - MVC architecture
+- User authentication with Passport.js
 - Environment variable configuration using `.env`
 
 # Prerequisites
@@ -53,6 +54,7 @@ Server will run at `http://localhost:3000`
 - public/ - Static files (CSS, JS, images)
 - routes/ - Express routes
 - views/ - EJS templates
+- passport-config.js - Passport authentication configuration
 - .gitignore
 - package.json
 - README.md
